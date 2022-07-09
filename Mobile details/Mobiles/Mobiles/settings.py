@@ -76,10 +76,10 @@ WSGI_APPLICATION = 'Mobiles.wsgi.application'
 
 DATABASES = {
     'default': {
-       'ENGINE': 'django.db.backends.postgresql',
+       'ENGINE': 'django.db.backends.mysql',
         'NAME': 'phones',
-        'USER' : 'postgres',
-        'PASSWORD' : '1234',
+        'USER' : 'root',
+        'PASSWORD' : 'localDatabase',
         'HOST' : 'localhost'
     }
 }
